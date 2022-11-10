@@ -1,0 +1,107 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(28, 28, 28);
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    color: white;
+}
+.logoArea{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.header div>img{
+    width: 70px;
+    cursor: pointer;
+}
+.inputArea{
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+}
+.inputArea>span{
+    background-image: url("https://cdn-icons-png.flaticon.com/128/8042/8042338.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-left: 3px solid rgb(7, 12, 22);
+}
+input{
+    width: 30vw;
+    height: 3rem;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    padding: 0 0.7rem;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.card{
+    width: 250px;
+    height: 350px;
+    border: 4px solid #EAEAEA;
+    background-color: white;
+    padding: 0.5rem;
+}
+.bgImage{
+    background-image: url("https://edamam-product-images.s3.amazonaws.com/web-img/803/803e3e2c82e4edf12987f3df588c2a36.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE8aCXVzLWVhc3QtMSJHMEUCIQDn84846S3PDa8gC1wnucbEOom6kAHgdyKh1feiEkKNgAIge96mj9ocEgYFJUwJ9jDmf%2BPwjmjeMtPxLjzkLnxeAWwqzAQISBAAGgwxODcwMTcxNTA5ODYiDBdw48D1WaNqzEZTeCqpBIciyEbJzT9uAYSVFnFAoREmNf%2F8A8PoCJlCc2ZCpAcGGxVccHlDQXBYyxodhD%2Bmp5nm%2Bg7IwzCqscX9CzrEEpQaPIdr3nRZ6Qu%2BTJxuLLsRfQb%2F5Q3r3%2BEIhwsHpHiql5g%2BvZ0sl56X%2FLmS6%2F5Q6hAycVR%2BCDwzE%2BCXgW56PDyTU7U6wnjJx3cNQFK3%2FeITCwU2OvhrbauakDSn9LMLtRxaLNJLVGMPXKc%2FeIaF63Zbchh%2BVsFCH3TsAsyd%2BLAaoJ%2Fbl866n867O9N6%2Bmlz%2B12zshVDsGkVajToU0YmfyIemA%2FOCWA3k39cjZ0mHn53%2FO3RMH2YGXVFAsldPbWsq9hPpkdexByg4mItAQgO2oTsQWYHePaIMf6Ei%2BS9FKmQmvIB9coSqdLqztwWR5ReGttaeM%2Bytnd%2BwHgnzxuzrQiNrnLefl6M0RRbAWvTdtXIocXX%2FWesX7hEK%2FPpoOsB8FafZrg29gw20pyLJ0B0%2BKREhnsKk81wg2Wi1TR%2F77NLPz0MWixapYg8wjFo0o9HxzBnpytIaxtEAimyw6Qdl7mMjyjFznP8ttwjmv7BU3ZHU7Y1a6f1KS%2FeixEq5z9xyrKxoJf1DTb%2BHvGgqDf1suR7nGu%2Bx2YFnovpM0bV7z9g1Eb7NgVTQAdYFjfFQjIWg4OH%2FfBqFOrE3fp3Z%2FrqEcwrOrggpPxEUGU%2F6vqVjyOp3k3qmeNng8nqUfW8skO%2FJf8L5eRbmOEm1TIwkN%2BpmwY6qQEGSlD5xgd3LngKC9W9jE01i5nPiq6mB1R2RPoHPsSXVR2%2FkY1pmYUKE88%2Ff%2FRvmRn2ux1FPeklfy0VGizklFgWkvFWmspQ5rmtM7z%2F5LzXAkUjMVGEAlZ3GfWr3Vd38Z2v9yNjVWn8VUFzbg9zCGydVCU5SYtk0EK6krkZwjD61%2BbvzEbIf%2Fg0UdQcYS8G9GuNNRHrj4GMB6OCasyvCmGRwlJnBG529xov&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20221108T162447Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFPH5OK36V%2F20221108%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=19e133e4d0a7f11388edba2dcf777b18b9891a4c33ba313652d327c923ac7b8d");
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+.ingridients{
+    margin-top: 1rem;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem;;
+}
+.ingridients>span:first-child{
+    border-right: 2px solid;
+}
+.ingridients>span{
+    padding: 0 1rem;
+    cursor: pointer;
+}
+.ingridients>span>span{
+    color: rgb(1, 197, 18);
+    font-size: 1.1rem;
+}
+.title{
+    font-size: 1.2rem;
+    padding: 0.3rem 0.5rem;
+}
+
+.cardFlex{
+    margin: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 3rem;
+}
+@media only screen and (max-width: 480px){
+    .header{
+        justify-content: center;
+        gap: 2rem;
+        padding: 2rem 0;
+    }
+    input{
+        width: 50vw;
+    }
+}
